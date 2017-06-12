@@ -1,8 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SuiteListenerExample">
-    <parameter name="testlink" value="false"/>
     <suite-files>
-        <suite-file path="./src/test/restapi_tests/restapi_tests.xml"/>
+        <!--<suite-file path="./src/test/restapi_tests/restapi_tests.xml"/>-->
         <suite-file path="./src/test/web_tests/web_tests.xml"/>
     </suite-files>
 </suite>

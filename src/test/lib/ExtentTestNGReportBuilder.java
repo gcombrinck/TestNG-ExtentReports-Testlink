@@ -20,7 +20,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class ExtentTestNGReportBuilder extends TestLinkUtils{
+public class ExtentTestNGReportBuilder{
     private final static String ACCESS_KEY = "7883f74761842243276add891144917a";
     private final static String TESTLINK_SERVER_URL = "http://apollo/testlink-1.9.7/lib/api/xmlrpc/v1/xmlrpc.php";
     private final static String TESTLINK_PROJECT_NAME = "Test Project";
