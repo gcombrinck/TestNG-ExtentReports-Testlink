@@ -44,3 +44,14 @@ Appium for mobile testing.
 ```
 ExtentReports creates beautiful html reports.
 ```
+8. [Testlink](http://www.testlink.org/)
+```
+Testlink tool is used to capture test case using its web interface. Test Results are update via the testlink api.
+```
+
+## Code Snippets
+
+```java
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
