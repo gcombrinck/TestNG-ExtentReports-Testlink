@@ -11,11 +11,12 @@ import org.testng.annotations.*;
  */
 
 public class HelloWorldRestAssured extends ExtentTestNGReportBuilder {
-    @Parameters("ui")
     @Test
     public void makeSureThatGoogleIsUp() {
-        setTestCaseId("TST-1");
-        setDescription("This is the description 1000");
-        given().when().get("http://www.google.com").then().statusCode(200);
+        given()
+                .when()
+                .get("http://www.google.com")
+                .then()
+                .statusCode(200);
     }
 }

@@ -1,4 +1,5 @@
 # TestNG-ExtentReports-Testlink
+ *_created_ by gcombrinck*
 ### Tools used in this framework
 1. [Java](https://www.java.com/en/)
 ```
@@ -36,7 +37,7 @@ REST-assured for testing REST-Api's.
 ```
 Selenium for web testing.
 ```
-6. [Appium](http://appium.io/)
+6. [Appium](http://appium.io/) //TODO
 ```
 Appium for mobile testing.
 ```
@@ -55,9 +56,11 @@ Testlink tool is used to capture test case using its web interface. Test Results
 public class HelloWorldRestAssured extends ExtentTestNGReportBuilder {
     @Test
     public void makeSureThatGoogleIsUp() {
-        setTestCaseId("TST-1");
-        setDescription("This is the description 1000");
-        given().when().get("http://www.google.com").then().statusCode(200);
+        given()
+                .when()
+                .get("http://www.google.com")
+                .then()
+                .statusCode(200);
     }
 }
 ```
