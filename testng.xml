@@ -2,6 +2,6 @@
 <suite name="SuiteListenerExample">
     <suite-files>
         <!--<suite-file path="./src/test/restapi_tests/restapi_tests.xml"/>-->
-        <suite-file path="./src/test/web_tests/web_tests.xml"/>
+        <suite-file path="src/test/java/web_tests/web_tests.xml"/>
     </suite-files>
 </suite>

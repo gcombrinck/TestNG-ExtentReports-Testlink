@@ -1,13 +1,16 @@
-package test.web_tests;
+package web_tests;
 
+import lib.ExcelUtils;
+import lib.ExtentTestNGReportBuilder;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
-import test.lib.ExcelUtils;
-import test.lib.ExtentTestNGReportBuilder;
-import test.web_tests.pages.Home_Page;
-import test.web_tests.pages.Login_Page;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import web_tests.pages.Home_Page;
+import web_tests.pages.Login_Page;
 
 
 /**

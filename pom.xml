@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>gcombrinck</groupId>
-	<artifactId>restassured</artifactId>
+	<artifactId>gcombrinck-test-framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,7 +19,7 @@
     </build>
     <packaging>jar</packaging>
 
-	<name>restassured</name>
+	<name>gcombrinck-test-framework</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -92,5 +92,12 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+		<dependency>
+			<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
 	</dependencies>
 </project>

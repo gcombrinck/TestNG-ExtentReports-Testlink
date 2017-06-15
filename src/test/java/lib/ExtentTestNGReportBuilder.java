@@ -1,4 +1,4 @@
-package test.lib;
+package lib;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;

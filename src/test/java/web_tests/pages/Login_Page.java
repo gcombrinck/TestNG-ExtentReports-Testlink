@@ -1,4 +1,4 @@
-package test.web_tests.pages;
+package web_tests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
